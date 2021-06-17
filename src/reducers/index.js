@@ -4,7 +4,7 @@ export const initialState = {
     total: 100,
     operation: "*",
     memory: 100
-}
+} 
 
 const calculateResult = (num1, num2, operation) => {
     switch(operation) {
